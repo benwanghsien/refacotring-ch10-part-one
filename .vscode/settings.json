@@ -1,0 +1,91 @@
+{
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "none",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true // 搭配 ESLint extensions
+    },
+    "editor.mouseWheelZoom": false,
+    "editor.fontFamily": "'Source Code Variable','Source Code Pro','宋體',monospace",
+    "editor.formatOnSaveMode": "file", // required to format on save
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "window.confirmBeforeClose": "always", // avoid close vscode by pressing command+q
+    "security.workspace.trust.untrustedFiles": "open",
+    "gitlens.mode.active": "review",
+    // prettier
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnSave": true,
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[ruby]": {
+      // "editor.defaultFormatter": "testdouble.vscode-standard-ruby",
+      "editor.tabSize": 2,
+      "editor.formatOnSave": false,
+      "editor.wordWrapColumn": 120,
+      "editor.wordWrap": "wordWrapColumn"
+    },
+    "[erb]": {
+      "editor.tabSize": 2,
+      "editor.formatOnSave": false
+    },
+    "[markdown]": {
+      "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+      },
+      "editor.formatOnSave": false
+    },
+    // allow use emmet syntax
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "erb": "html"
+    },
+    // setting highlight keyword
+    "todohighlight.keywords": [
+      {
+        "text": "TODO del",
+        "color": "#000",
+        "backgroundColor": "#397272"
+      },
+      {
+        "text": "TODO",
+        "color": "#000",
+        "backgroundColor": "#FFBD2A"
+      },
+      {
+        "text": "FIXME",
+        "color": "#000",
+        "backgroundColor": "#F06292"
+      }
+    ],
+    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    // icon from extension
+    "workbench.iconTheme": "material-icon-theme",
+    // color customization
+    "workbench.colorCustomizations": {
+      "editorLineNumber.foreground": "#95673d",
+      "editorLineNumber.activeForeground": "#f0c789",
+    },
+    "workbench.tree.indent": 14, // directory tree indents
+    "code-runner.runInTerminal": true, // code runner setting
+    "emmet.triggerExpansionOnTab": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "debug.disassemblyView.showSourceCode": false,
+    "ruby.useLanguageServer": true, // use the internal language server (see below)
+    "ruby.lint": {
+      "standard": true
+    },
+    "ruby.intellisense": "rubyLocate",
+    // Rails Run Specs extension setting
+    "ruby.specCommand": "rspec",
+    "ruby.specClearTerminal": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "githubPullRequests.pullBranch": "never",
+    "files.insertFinalNewline": true,
+    "workbench.layoutControl.enabled": false,
+    "redhat.telemetry.enabled": true,
+    "BracketHighlighter.enableExtension": true
+  }
+  
